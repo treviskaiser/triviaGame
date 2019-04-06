@@ -1,0 +1,52 @@
+#dm{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    z-index: 1;
+    right:15px;
+    bottom: 39px;
+}
+
+
+#question, #score, #incorrect{
+    display:none;
+}
+#score, #incorrect{
+    text-align: center;
+}
+
+#timer{
+    display:none;
+}
+
+#start-button{
+    position: relative;
+    text-align: center;
+    bottom: 100px;
+    z-index: 2;
+}
+
+#background{
+    max-width: 500px;
+    height: 400px;
+    margin: auto;
+    background-color: beige;
+    padding: 15px;
+    }
+
+#picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: fixed;
+    background-image: url(../images/the-office-us.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
