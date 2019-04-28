@@ -27,6 +27,13 @@
     z-index: 2;
 }
 
+#tryAgain{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
 #background{
     max-width: 500px;
     height: 400px;
@@ -35,6 +42,9 @@
     padding: 15px;
     }
 
+.jumbotron{
+background: none;
+}
 #picture{
     display: block;
     margin-left: auto;
@@ -49,4 +59,12 @@ body{
     background-image: url(../images/the-office-us.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.hidden{
+    display: none;
+}
+
+.inline{
+    display: inline;
 }
